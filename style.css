@@ -1,12 +1,13 @@
 body {
-    background: #8C52FF;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #8a2be2;
     margin: 0;
-}
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}  
 h2, label, p {
     color: #fff;
     margin: 8px 0;
@@ -35,16 +36,22 @@ button {
 button:hover {
     background: #8b48d7;
 }
+.container {
+    text-align: center;
+    background: #9370DB;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 #weather-container {
     background: #8b48d7;
-    max-width: 400px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
+    background: #9370DB;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
 .iconsContainer{
